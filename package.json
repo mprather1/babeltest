@@ -1,0 +1,33 @@
+{
+  "name": "backbone_postgres_seed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node build/app.js",
+    "babel:build": "babel --watch -d build src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shintech/backbone_postgres_seed.git"
+  },
+  "author": "Michael Prather",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shintech/backbone_postgres_seed/issues"
+  },
+  "homepage": "",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-preset-es2015-node6": "^0.4.0",
+    "babel-preset-latest": "^6.22.0",
+    "standard": "^8.6.0"
+  },
+  "standard": {
+    "ignore": [
+      "src/test"
+    ]
+  }  
+}
